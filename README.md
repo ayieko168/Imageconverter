@@ -1,0 +1,1 @@
+Imageconverter is a GUI built using tkinter that helps convert image files. It is built ontop of the PIL module in pyhton3 (pillow).
