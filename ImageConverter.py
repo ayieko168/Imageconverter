@@ -142,7 +142,7 @@ def developing():
 
     font = 'Freeserif', 12
     devText = Text(win1, font=font, bg='white', fg='black',)
-    with open('text.txt', 'r+') as text:
+    with open('text.txt', 'r') as text:
         content = text.read()
         devText.insert(0.1, content)
     devText.config(state=DISABLED)
@@ -157,7 +157,7 @@ def formating():
 
     font = 'Freeserif', 12
     formText = Text(win2, font=font, bg='white', fg='black',)
-    with open('formats.txt', 'r+') as text:
+    with open('formats.txt', 'r') as text:
         content = text.read()
         formText.insert(0.1, content)
     formText.config(state=DISABLED)
